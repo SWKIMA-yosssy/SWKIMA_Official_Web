@@ -1,21 +1,22 @@
 .contact {
   text-align:center;
-  
-  hr{
+}
+
+.contact hr{
     color: #212121;
     margin-left:300px;
     margin-right:300px;
-  }
+}
 
-  div{
-    margin: 100px;
+.contact div{
+  margin: 100px;
+}
 
-    h1{
+.title {
       margin-bottom: 50px;
       font-size: x-large;
-    }
-    p{
+}
+
+.statements{
       font-size: large;
-    }
-  }
 }

@@ -1,9 +1,10 @@
 .footer{
   display:flex;
   align-items: center;
-  small{
+}
+
+.footer small{
   margin-top:50px;
   margin-left:auto;
   margin-right:auto;
-  }
 }
