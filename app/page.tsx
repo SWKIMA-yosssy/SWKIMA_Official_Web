@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image';
 import Hero from './components/layout/home/Hero'
 import NewRelease from './components/layout/home/NewRelease'
 import SocialLinks from './components/layout/home/SocialLinks'
