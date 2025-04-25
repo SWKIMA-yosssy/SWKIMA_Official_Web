@@ -1,0 +1,26 @@
+.header{
+  width: 100%;
+  padding: 25px;
+  padding-bottom: 5px;
+}
+
+.headerNav{
+  display: flex;
+  align-items: center;
+}
+
+.navWrapper{
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.navLink{
+  font-size: large;
+  margin-right: 100px;
+}

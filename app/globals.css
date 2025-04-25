@@ -82,14 +82,5 @@
   body {
     @apply bg-background text-foreground;
   }
-  h2 {
-    @apply text-primary
-  }
-  h3 {
-    @apply text-primary
-  }
-  p {
-    @apply text-primary
-  }
 }
 

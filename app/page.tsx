@@ -1,10 +1,15 @@
 'use client'
 import Image from 'next/image';
-
+import Hero from './components/layout/home/Hero'
+import NewRelease from './components/layout/home/NewRelease'
+import SocialLinks from './components/layout/home/SocialLinks'
 export default function Home() {
   return (
     <div>
-      <h2>SWKIMA</h2>
+      <Hero />
+      <NewRelease />
+      <SocialLinks />
+
     </div>
   );
 }
