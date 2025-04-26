@@ -1,0 +1,12 @@
+.cardWrapper{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.worksTitle{
+  font-size:xxx-large;
+  text-align:center;
+  margin-top: 5%;
+}
