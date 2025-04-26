@@ -5,9 +5,12 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <NewRelease className="w-full" />
-      <SocialLinks className="w-full" />
-
+      <div className="w-full">
+        <NewRelease />
+      </div>
+      <div className="w-full">
+        <SocialLinks />
+      </div>
     </div>
   );
 }
