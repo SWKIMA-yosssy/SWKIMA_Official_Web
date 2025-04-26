@@ -11,7 +11,7 @@ export default function Hero() {
 
         <div className={styles.heroText}>
           <h1>Swkima</h1>
-          <p>Art invites you -{'>'} into an elaborately created world</p>
+          <p>Art invites you into <br />-{'>'} an elaborately created world</p>
         </div>
       </div>
     </div>

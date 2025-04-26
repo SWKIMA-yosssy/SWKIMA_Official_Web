@@ -5,8 +5,8 @@
 .heroText{
   position:absolute;
   top: 32%;
-  left:25%;
-  mix-blend-mode: multiply;
+  left:20%;
+  mix-blend-mode: normal ;
 }
 
 .heroText h1{
@@ -15,4 +15,5 @@
 
 .heroText p{
   font-size:x-large;
+  background-color:hsl(0 14% 97%);
 }
