@@ -3,7 +3,7 @@ import releases from "@/src/data/releases.json"
 import WorksCard from "./WorksCard"
 import styles from "./page.module.css"
 
-const reversedReleases = releases.map((_, i, a) => a[a.length - 1 - i])
+const reversedReleases = [...releases].reverse();
 
 export default function Page() {
   return (
