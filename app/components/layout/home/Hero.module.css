@@ -1,0 +1,18 @@
+.heroWrapper{
+  position:relative;
+}
+
+.heroText{
+  position:absolute;
+  top: 32%;
+  left:25%;
+  mix-blend-mode: multiply;
+}
+
+.heroText h1{
+  font-size:xxx-large;
+}
+
+.heroText p{
+  font-size:x-large;
+}
