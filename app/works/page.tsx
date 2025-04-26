@@ -14,7 +14,7 @@ export default function Page() {
         {reversedReleases.map((work) => {
           // ここで links から undefined を除外する
           const filteredLinks = Object.fromEntries(
-            Object.entries(work.links).filter(([_, value]) => value !== undefined)
+            Object.entries(work.links).filter(([, value]) => value !== undefined)
           );
 
           return (
