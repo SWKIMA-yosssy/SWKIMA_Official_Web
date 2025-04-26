@@ -12,9 +12,10 @@ export default function Page() {
           <WorksCard
             key={work.id}
             title={work.title}
-            genera={work.genera}
+            genera={work.genre}
             releaseDate={work.releaseDate}
             jacketPath={work.jacketPath}
+            links={work.links}
           />
         ))
         }
