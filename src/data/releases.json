@@ -2,17 +2,17 @@
   {
     "id": "1",
     "title": "Blooming Night",
-    "genera": "FutureCore",
+    "genre": "FutureCore",
     "releaseDate": "2024.04.28",
     "jacketPath": "/images/ITC-19.png",
     "links": {
-      "soundcloud": "None"
+      "X": "https://x.com/tusitclub/status/1783113808195817618"
     }
   },
   {
     "id": "2",
     "title": "Kick It",
-    "genera": "Garage",
+    "genre": "Garage",
     "releaseDate": "2024.10.27",
     "jacketPath": "/images/Ignition.png",
     "links": {
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "title": "藍の残響 -Swkima & t0mmy- feat.可不",
-    "genera": "Pops",
+    "genre": "Pops",
     "releaseDate": "2024.02.21",
     "jacketPath": "/images/ITC_VOL_21_Jacket_master.png",
     "links": {
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "title": "Dreaming Moon Life",
-    "genera": "HyperGarage",
+    "genre": "HyperGarage",
     "releaseDate": "2024.04.03",
     "jacketPath": "/images/HyperGarage_Jacket.png",
     "links": {
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "title": "Seeker of",
-    "genera": "TechCore",
+    "genre": "TechCore",
     "releaseDate": "2025.04.27",
     "jacketPath": "/images/Citrus_Hardcore_01.png",
     "links": {

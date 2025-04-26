@@ -10,7 +10,7 @@ export default function NewRelease() {
         <hr className="m-6 w-full border-gray-400" />
       </div>
 
-      <div className="flex flex-row m-10">
+      <div className="flex flex-row m-10 pt-10">
 
         <div className="aspect-square">
           <Image src={recentRelease.jacketPath}
