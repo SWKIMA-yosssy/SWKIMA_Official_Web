@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "title": "Blooming Night",
+    "genera": "FutureCore",
+    "releaseDate": "2024-04-28",
+    "jacketPath": "/public/images/ITC_19.png",
+    "links": {
+      "soundcloud": "None"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Kick It",
+    "genera": "Garage",
+    "releaseDate": "2024-10-27",
+    "jacketPath": "/public/images/Ignition.png",
+    "links": {
+      "soundcloud": "https://soundcloud.com/user-270776023/kick-it"
+    }
+  },
+  {
+    "id": "3",
+    "title": "藍の残響 -Swkima & t0mmy- feat.可不",
+    "genera": "Pops",
+    "releaseDate": "2024-02-21",
+    "jacketPath": "/public/images/ITC_VOL_21_Jacket_master.png",
+    "links": {
+      "nicovideo": "https://www.nicovideo.jp/watch/sm44678568"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Dreaming Moon Life",
+    "genera": "HyperGarage",
+    "releaseDate": "2024-04-03",
+    "jacketPath": "/public/images/HyperGarage_Jacket.png",
+    "links": {
+      "soundcloud": "https://soundcloud.com/user-270776023/dreaming-moon-life"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Seeker of",
+    "genera": "TechCore",
+    "releaseDate": "2025-04-27",
+    "jacketPath": "/public/images/Citrus_Hardcore_01.png",
+    "links": {
+      "youtube" : "https://www.youtube.com/watch?v=tsCmhnF8m_k"
+      "soundcloud": "https://soundcloud.com/citrus-tones/citrus-hardcore"
+    }
+  },
+]

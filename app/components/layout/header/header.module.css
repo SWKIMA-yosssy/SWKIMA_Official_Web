@@ -1,7 +1,14 @@
 .header{
   width: 100%;
-  padding: 25px;
   padding-bottom: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.headerHover{
+  width: 100%;
+  padding-bottom: 5px;
+  background-color:hsl(240 10% 3.9%);
+  transition: background-color 0.5s ease;
 }
 
 .headerNav{
@@ -11,16 +18,28 @@
 
 .navWrapper{
   margin-left: auto;
-  margin-right: 100px;
+  margin-right: 5%;
 }
 
 .logo{
   display: flex;
   align-items: center;
   margin-left: 25px;
+  mix-blend-mode: multiply;
 }
 
 .navLink{
+  color: hsl(240 10% 3.9%);
   font-size: large;
-  margin-right: 100px;
+  padding-right: 100px;
+  padding-top:5%;
+  transition: color 0.5s ease;
+}
+
+.navLinkHover{
+  font-size: large;
+  padding-right: 100px;
+  padding-top:5%;
+  color: #f9f7f7;
+  transition: color 0.5s ease;
 }
