@@ -4,20 +4,20 @@ export default function NewRelease() {
 
   const recentRelease = Object.values(releases)[releases.length - 1];
   return (
-    <div className="m-20">
-      <div className="flex flex-row w-full">
+    <div className="m-20 flex flex-col">
+      <div className="flex flex-row">
         <h1 className="text-5xl">NewRelease</h1>
         <hr className="m-6 w-full border-gray-400" />
       </div>
 
-      <div className="flex flex-row m-10 pt-10">
+      <div className="flex md:flex-row flex-col m-10 pt-10">
 
         <div className="aspect-square">
           <Image src={recentRelease.jacketPath}
             alt={recentRelease.title} height="500" width="500" />
         </div>
 
-        <div className="w-full flex flex-col md:flex-row flex-wrap">
+        <div className="flex flex-col md:flex-row flex-wrap w-full">
           <h1 className="text-5xl text-center w-full">{recentRelease.title}</h1>
           <div className="ml-auto p-3">
             <h2 className="mr-auto mt-1 text-right">Label: Citrus Tones</h2>
