@@ -7,12 +7,12 @@ export default function SocialLinks() {
         <hr className="m-6 w-full border-gray-400" />
       </div>
 
-      <div className="m-6 pt-10 flex flex-row w-full">
-        <a className="rounded-md ml-6 mr-6" href="https://x.com/swkima"><Image src="/images/xLogoBlack.png"
-          alt="X" height="75" width="75" />
+      <div className="m-6 pt-10 flex flex-row flex-wrap gap-12">
+        <a className="rounded-md" href="https://x.com/swkima"><Image src="/images/xLogoBlack.png"
+          alt="X" height="50" width="50" />
         </a>
-        <a className="rounded-md ml-6 mr-6" href="https://www.instagram.com/_swkima/"><Image src="/images/Instagram_Glyph_Black.png"
-          alt="IG" height="75" width="75" />
+        <a className="rounded-md" href="https://www.instagram.com/_swkima/"><Image src="/images/Instagram_Glyph_Black.png"
+          alt="IG" height="50" width="50" />
         </a>
       </div>
     </div>

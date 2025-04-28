@@ -7,9 +7,13 @@
 .headerNav{
   display: flex;
   align-items: center;
+  flex-wrap:wrap;
+  padding: 0 1rem;
 }
 
 .navWrapper{
+  display: flex;
+  gap: 3rem;
   margin-left: auto;
   margin-right: 5%;
 }
@@ -17,13 +21,6 @@
 .logo{
   display: flex;
   align-items: center;
-  margin-left: ;
   mix-blend-mode: multiply;
 }
 
-.navLink{
-  color: hsl(240 10% 3.9%);
-  font-size: x-large;
-  margin-right: 100px;
-  transition: color 0.5s ease;
-}

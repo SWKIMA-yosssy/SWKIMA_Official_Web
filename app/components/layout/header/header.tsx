@@ -20,9 +20,9 @@ export default function Header() {
         </div>
 
         <div className={styles.navWrapper}>
-          <Link className={styles.navLink} href="/">Home</Link>
-          <Link className={styles.navLink} href="works">Works</Link>
-          <Link className={styles.navLink} href="contact">Contact</Link>
+          <Link className="text-xl hover:underline duration-1000 ease-linear " href="/">Home</Link>
+          <Link className="text-xl hover:underline" href="/works">Works</Link>
+          <Link className="text-xl hover:underline" href="/contact">Contact</Link>
         </div>
       </nav>
     </header >
