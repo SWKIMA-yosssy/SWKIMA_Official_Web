@@ -14,6 +14,9 @@ export default function SocialLinks() {
         <a className="rounded-md" href="https://www.instagram.com/_swkima/"><Image src="/images/Instagram_Glyph_Black.png"
           alt="IG" height="50" width="50" />
         </a>
+        <a className="tounded-md pt-3" href="https://soundcloud.com/user-270776023"><Image src="/images/sc-logo-black.svg"
+          alt="IG" height="50" width="50" />
+        </a>
       </div>
     </div>
   )
