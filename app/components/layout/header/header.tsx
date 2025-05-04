@@ -2,7 +2,6 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link"
 import Image from "next/image"
-import styles from "./header.module.css"
 export default function Header() {
   const pathname = usePathname();
   const navLinks = [
@@ -13,21 +12,17 @@ export default function Header() {
 
   return (
     <header className="w-full m-2">
-      <nav className={styles.headerNav}>
+      <nav className="flex flex-wrap items-center">
 
-        <div className={styles.logoWrapper}>
-          <Link href="/">
-            <div className={styles.logo}>
-              <Image src="/images/Swkima_Logo.png"
-                alt="Swkima Logo"
-                width={80}
-                height={80}
-              />
-            </div>
-          </Link>
-        </div>
+        <Link className="ml-[1.5%]" href="/">
+          <Image src="/images/Swkima_Logo.png"
+            alt="Swkima Logo"
+            width={80}
+            height={80}
+          />
+        </Link>
 
-        <div className={styles.navWrapper}>
+        <div className="flex gap-[1rem] md:gap-[4rem] ml-auto mr-[5%]">
           {navLinks.map(({ href, label }) => {
             const isActive = pathname == href;
             return (

@@ -4,7 +4,9 @@ import SocialLinks from './components/layout/home/SocialLinks'
 export default function Home() {
   return (
     <div>
-      <Hero />
+      <div className="m-1">
+        <Hero />
+      </div>
       <div className="w-full">
         <NewRelease />
       </div>
