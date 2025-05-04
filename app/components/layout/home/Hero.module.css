@@ -1,11 +1,3 @@
-.heroWrapper{
-  position:relative;
-}
-
-.heroWrapper Image{
-  height: 900px;
-}
-
 .heroText{
   position:absolute;
   top: 32%;

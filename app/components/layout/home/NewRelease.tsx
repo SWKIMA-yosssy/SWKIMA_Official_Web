@@ -10,7 +10,7 @@ export default function NewRelease() {
         <hr className="m-6 w-full border-gray-400" />
       </div>
 
-      <div className="flex md:flex-row flex-col m-10 pt-10">
+      <div className="flex md:flex-row flex-col pt-10">
 
         <div className="aspect-square">
           <Image src={recentRelease.jacketPath}
@@ -25,11 +25,9 @@ export default function NewRelease() {
             <h2 className="mr-auto mt-1 text-right">{recentRelease.releaseDate}</h2>
           </div>
           <iframe /* SoundCloud embed */
-            className="m-10"
+            className="w-full pl-5 pr-5 pt-5"
             width="100%"
             height="300"
-            scrolling="no"
-            frameBorder="no"
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2081971197&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>

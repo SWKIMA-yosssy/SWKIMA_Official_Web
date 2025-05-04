@@ -1,9 +1,7 @@
-import styles from "./footer.module.css"
-
 export default function Header() {
   return (
-    <footer className={styles.footer}>
-      <small className={styles.rightsNotation}>Copyright Ⓒ+Ⓟ Swkima. All Rights Reserved.</small>
+    <footer className="flex items-center m-[2%]">
+      <small className="ml-auto mr-auto">Copyright Ⓒ+Ⓟ Swkima. All Rights Reserved.</small>
     </footer>
   )
 }
