@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from "./Hero.module.css"
 export default function Hero() {
   return (
     <div className="w-full relative">
@@ -11,9 +10,9 @@ export default function Hero() {
           className="object-cover"
         />
 
-        <div className={styles.heroText}>
-          <h1>Swkima</h1>
-          <p>Art invites you into <br /> → an elaborately created world</p>
+        <div className="absolute top-[32%] left-[20%]">
+          <h1 className="text-7xl">Swkima</h1>
+          <p className="p-6 text-2xl">invites you into <br /> → an elaborately created world</p>
         </div>
       </div>
     </div>
