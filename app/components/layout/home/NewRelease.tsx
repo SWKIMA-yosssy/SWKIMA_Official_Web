@@ -4,7 +4,7 @@ export default function NewRelease() {
 
   const recentRelease = Object.values(releases)[releases.length - 1];
   return (
-    <div className="m-20 flex flex-col">
+    <div className="m-20 flex flex-col xl:pl-[15%] xl:pr-[15%]">
       <div className="flex flex-row">
         <h1 className="text-5xl">NewRelease</h1>
         <hr className="m-6 w-full border-gray-400" />
