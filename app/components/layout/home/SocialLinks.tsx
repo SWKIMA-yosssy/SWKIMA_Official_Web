@@ -1,9 +1,9 @@
 import Image from "next/image"
 export default function SocialLinks() {
   return (
-    <div className="m-20">
+    <div className="m-20 xl:pl-[15%] xl:pr-[15%]">
       <div className="flex flex-row w-full">
-        <h1 className="text-5xl w-1/5">SNS Links</h1>
+        <h1 className="text-5xl w-2/5">SNS Links</h1>
         <hr className="m-6 w-full border-gray-400" />
       </div>
 

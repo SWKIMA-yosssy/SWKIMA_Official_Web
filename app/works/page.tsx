@@ -1,16 +1,14 @@
-
 import releases from "@/src/data/releases.json"
 import WorksCard from "./WorksCard"
-import styles from "./page.module.css"
 
 const reversedReleases = [...releases].reverse();
 //edited to debug unused _ error
 
 export default function Page() {
   return (
-    <div>
-      <h1 className={styles.worksTitle}>works</h1>
-      <div className={styles.cardWrapper}>
+    <div className="xl:pl-[15%] xl:pr-[15%]">
+      <h1 className="text-5xl text-center mt-[5%] mb-[3%]">Works</h1>
+      <div className="w-full flex flex-wrap justify-center">
         {reversedReleases.map((work) => {
           // ここで links から undefined を除外する
           const filteredLinks = Object.fromEntries(
